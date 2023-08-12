@@ -1,0 +1,63 @@
+:root {
+    --main-color: #ddebeb;
+    --sec-color: #3f5561;
+}
+
+body {
+    background-color: var(--main-color);
+    color: var(--sec-color);
+}
+
+.outer-box {
+    box-shadow: -5px 2px 54px -9px rgba(26, 65, 80, 1);
+    border-radius: 20px;
+}
+
+.inner-box {
+    box-shadow: -5px 2px 54px -9px rgba(26, 65, 80, 0.6);
+    border-radius: 10px;
+}
+
+i {
+    color: #1a4150;
+}
+
+.right-icon {
+    margin-left: 90%;
+}
+
+.left-icon {
+    margin-left: 3%;
+}
+
+.icon {
+    font-size: 4rem;
+}
+
+h1 {
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4rem;
+}
+
+button {
+    background-color: #146C94;
+    border: none;
+    transition: all 0.4s;
+}
+
+button:hover {
+    background-color: #6aaac5;
+}
+
+#quote,
+#author {
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #1a4150;
+}
+
+::selection {
+    background-color: var(--sec-color);
+    color: var(--main-color);
+}
